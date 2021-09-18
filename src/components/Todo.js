@@ -32,12 +32,12 @@ function Todo(props) {
             confirmClicked={deleteTodo}
             cancelClicked={dismissDeleteConfirmationModal}
           />
-        ) //Same as mosalIsOpen? <Modal /> : null;
+        ) //Same as modalIsOpen? <Modal /> : null;
       }
       {
         modalIsOpen && (
           <Backdrop backdropClicked={dismissDeleteConfirmationModal} />
-        ) //Same as mosalIsOpen? <Backdrop /> : null;
+        ) //Same as modalIsOpen? <Backdrop /> : null;
       }
     </div>
   );
