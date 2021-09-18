@@ -14,6 +14,7 @@ function Todo(props) {
   }
 
   function deleteTodo() {
+    dismissDeleteConfirmationModal();
     console.log("Todo Deleted");
   }
 
